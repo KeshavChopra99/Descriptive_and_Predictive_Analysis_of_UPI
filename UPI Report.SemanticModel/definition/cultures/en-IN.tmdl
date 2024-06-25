@@ -1,0 +1,5275 @@
+cultureInfo en-IN
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "UPI_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "UPI data": {}
+			        },
+			        {
+			          "UPI data": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data": {
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "data": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Unified Payments Interface": {
+			            "LastModified": "2024-02-12T07:43:57.504Z"
+			          }
+			        },
+			        {
+			          "Unified Payments Interface": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Unified Payment Interface": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Unified Payment": {
+			            "State": "Deleted",
+			            "LastModified": "2024-02-12T07:43:33.905Z"
+			          }
+			        },
+			        {
+			          "Interface": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Interface": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Payments Interface": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Payments Interface": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Payment Interface": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "upi information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "upi fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "upi info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "upi statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "upi document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "upi figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "upi record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "UPI_data.month.variation.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "VariationSource": "Month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "UPI_data.month.variation.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "VariationSource": "Month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "UPI_data.month.variation.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "VariationSource": "Month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "mth quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "UPI_data.month.variation.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "VariationSource": "Month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "mth month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "UPI_data.month.variation.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "VariationSource": "Month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "UPI_data.no__of_banks_live_on_UPI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "ConceptualProperty": "No. of Banks live on UPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no. of banks live on UPI": {}
+			        },
+			        {
+			          "no. of banks live on UPI": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "live banks": {
+			            "LastModified": "2024-02-12T07:41:23.986Z"
+			          }
+			        },
+			        {
+			          "live banks": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "banks": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "banks": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "live series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "live set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "live row": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "live tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "live group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "live array": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "live panel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "live depository": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "live reservoir": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "live collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.volume_in_cr_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "ConceptualProperty": "Volume (in Cr.)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "volume (in cr.)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume (in cr.)": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "volume": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.value_in_cr_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UPI Data",
+			          "ConceptualProperty": "Value (in Cr.)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value (in cr.)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value (in cr.)": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.value_per_transaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Value Per Transaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value per transaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value per transaction": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "assessment per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "worth per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "price per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cost per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "charge per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "rate per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "importance per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "significance per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "usefulness per transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.volume_in_cr__MoM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Volume (in Cr.) MoM%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "volume (in cr.) MoM%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume (in cr.) MoM%": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.reggresion_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Reggresion Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "reggresion value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "reggresion value": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "reggresion assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "reggresion worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "reggresion price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "reggresion cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "reggresion charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "reggresion rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "reggresion importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "reggresion significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "reggresion usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "reggresion consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.number_of_banks_added_each_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "number of banks added each month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "number of banks added each month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number of banks added each month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.number_of_banks_live_each_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "number of banks live each month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden",
+			        "State": "Authored"
+			      },
+			      "Terms": [
+			        {
+			          "number of banks live each month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number of banks live each month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.regression_volume": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Regression Volume"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regression volume": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression volume": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "volume": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "regression tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "regression book": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "regression work": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.average_value_in_cr_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Average Value (in Cr.)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average value (in cr.)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average value (in cr.)": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average value": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "average value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "UPI_data.average_volume_in_cr_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Average Volume (in Cr.)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average volume (in cr.)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average volume (in cr.)": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average volume": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "average volume": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regression value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression value": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "regression worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.slope_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "Slope1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "slope 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "slope 1": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Slope1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.intercept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "Intercept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "intercept": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "intercept": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.standard_error_slope_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "StandardErrorSlope1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error slope 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "standard error slope 1": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardErrorSlope1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error slope 1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "error slope 1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.standard_error_intercept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "StandardErrorIntercept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error intercept": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "standard error intercept": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardErrorIntercept": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error intercept": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "error intercept": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.coefficient_of_determination": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "CoefficientOfDetermination"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coefficient of determination": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "coefficient of determination": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CoefficientOfDetermination": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "coefficient": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "coefficient": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "quantity of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "measurement of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "constant of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "number of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "factor of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "amount of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "figure of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "factor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.standard_error": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "StandardError"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "standard error": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardError": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "error": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "standard booboo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard inaccuracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard miscalculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard slipup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "booboo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "inaccuracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "miscalculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "slipup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "standard mistake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "standard fault": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.F_statistic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "FStatistic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F statistic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "F statistic": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FStatistic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "f digit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "f measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "f fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "digit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "f number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.degree_of_freedom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "DegreesOfFreedom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "degree of freedom": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "degree of freedom": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DegreesOfFreedom": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "degree": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gradation of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "unit of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "grade of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mark of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "notch of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "step of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "point of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "gradation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quantity of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.regression_sum_of_squares": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "RegressionSumOfSquares"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regression sum of squares": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression sum of squares": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression sum of square": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "RegressionSumOfSquares": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "regression sum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression sum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression quantity of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.786
+			          }
+			        },
+			        {
+			          "regression summation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "regression aggregation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "regression summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regression aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regression total of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression aggregate of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression amount of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "regression aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.residual_sum_of_squares": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "ResidualSumOfSquares"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "residual sum of squares": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "residual sum of squares": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "residual sum of square": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "ResidualSumOfSquares": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "residual sum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "residual sum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "residual quantity of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.786
+			          }
+			        },
+			        {
+			          "residual summation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "residual aggregation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "residual summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "residual aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "residual total of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual aggregate of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual amount of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residual aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.slope_value_regression": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "Slope Value Regression"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "slope value regression": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "slope value regression": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value regression": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value regression": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "slope value reversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "slope value deterioration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "value reversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "value deterioration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "slope value relapse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "slope value worsening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "slope value lapse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "reversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "deterioration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "value relapse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regression_value.constant_of_regression_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression value",
+			          "ConceptualProperty": "Constant of Regression Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "constant of regression value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "constant of regression value": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regression volume": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression volume": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "volume": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regression bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "regression tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "regression book": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "regression work": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.slope_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "Slope1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "slope 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "slope 1": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Slope1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.intercept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "Intercept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "intercept": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "intercept": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.standard_error_slope_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "StandardErrorSlope1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error slope 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "standard error slope 1": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardErrorSlope1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error slope 1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "error slope 1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.standard_error_intercept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "StandardErrorIntercept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error intercept": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "standard error intercept": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardErrorIntercept": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error intercept": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "error intercept": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.coefficient_of_determination": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "CoefficientOfDetermination"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coefficient of determination": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "coefficient of determination": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CoefficientOfDetermination": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "coefficient": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "coefficient": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "quantity of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "measurement of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "constant of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "number of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "factor of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "amount of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "figure of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "factor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.standard_error": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "StandardError"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "standard error": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardError": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "error": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "standard booboo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard inaccuracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard miscalculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard slipup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "booboo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "inaccuracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "miscalculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "slipup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "standard mistake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "standard fault": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.F_statistic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "FStatistic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F statistic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "F statistic": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FStatistic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "f digit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "f measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "f fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "digit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "f number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.degree_of_freedom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "DegreesOfFreedom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "degree of freedom": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "degree of freedom": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DegreesOfFreedom": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "degree": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gradation of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "unit of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "grade of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mark of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "notch of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "step of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "point of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "gradation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quantity of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.regression_sum_of_squares": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "RegressionSumOfSquares"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regression sum of squares": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression sum of squares": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression sum of square": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "RegressionSumOfSquares": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "regression sum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression sum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression quantity of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.786
+			          }
+			        },
+			        {
+			          "regression summation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "regression aggregation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "regression summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regression aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regression total of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression aggregate of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression amount of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "regression aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.residual_sum_of_squares": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "ResidualSumOfSquares"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "residual sum of squares": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "residual sum of squares": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "residual sum of square": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "ResidualSumOfSquares": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "residual sum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "residual sum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "residual quantity of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.786
+			          }
+			        },
+			        {
+			          "residual summation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "residual aggregation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "residual summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "residual aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "residual total of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual aggregate of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual amount of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residual aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.slope_volume_regression": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "Slope Volume Regression"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "slope volume regression": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "slope volume regression": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "volume regression": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "volume regression": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "slope volume reversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "slope volume deterioration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "volume reversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "volume deterioration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "slope volume relapse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "slope volume worsening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "slope volume lapse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "reversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "deterioration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "volume relapse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regression_volume.constant_of_regression_volume": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regression Volume",
+			          "ConceptualProperty": "Constant of Regression Volume"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "constant of regression volume": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "constant of regression volume": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "UPI_data_month_variation_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data.month.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy"
+			          }
+			        },
+			        "UPI_data.month.variation.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data.month.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.month.variation.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_date_hierarchies_have_month_days"
+			        }
+			      ]
+			    },
+			    "UPI_data_month_variation_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data.month.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy"
+			          }
+			        },
+			        "UPI_data.month.variation.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data.month.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.month.variation.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_date_hierarchies_have_month_months"
+			        }
+			      ]
+			    },
+			    "UPI_data_month_variation_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data.month.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy"
+			          }
+			        },
+			        "UPI_data.month.variation.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data.month.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.month.variation.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_date_hierarchies_have_month_quarters"
+			        }
+			      ]
+			    },
+			    "UPI_data_month_variation_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data.month.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy"
+			          }
+			        },
+			        "UPI_data.month.variation.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data.month.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.month.variation.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_date_hierarchies_have_month_years"
+			        }
+			      ]
+			    },
+			    "UPI_data_month_has_variation_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data.month": {
+			          "Target": {
+			            "Entity": "UPI_data.month"
+			          }
+			        },
+			        "UPI_data.month.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "UPI_data.month.variation.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data.month"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.month.variation.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "months_have_month_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_constant_of_regression_volume": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.constant_of_regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume.constant_of_regression_volume"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.constant_of_regression_volume"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_constant_of_regression_volume"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_slope_volume_regression": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.slope_volume_regression": {
+			          "Target": {
+			            "Entity": "regression_volume.slope_volume_regression"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.slope_volume_regression"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_slope_volume_regressions"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_residual_sum_of_squares": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.residual_sum_of_squares": {
+			          "Target": {
+			            "Entity": "regression_volume.residual_sum_of_squares"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.residual_sum_of_squares"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_residual_sum_of_squares"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_regression_sum_of_squares": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.regression_sum_of_squares": {
+			          "Target": {
+			            "Entity": "regression_volume.regression_sum_of_squares"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.regression_sum_of_squares"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_regression_sum_of_squares"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_degree_of_freedom": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.degree_of_freedom": {
+			          "Target": {
+			            "Entity": "regression_volume.degree_of_freedom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.degree_of_freedom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_degree_of_freedom"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_F_statistic": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.F_statistic": {
+			          "Target": {
+			            "Entity": "regression_volume.F_statistic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.F_statistic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_F_statistics"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_standard_error": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.standard_error": {
+			          "Target": {
+			            "Entity": "regression_volume.standard_error"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.standard_error"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_standard_errors"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_coefficient_of_determination": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.coefficient_of_determination": {
+			          "Target": {
+			            "Entity": "regression_volume.coefficient_of_determination"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.coefficient_of_determination"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_coefficient_of_determination"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_standard_error_intercept": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.standard_error_intercept": {
+			          "Target": {
+			            "Entity": "regression_volume.standard_error_intercept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.standard_error_intercept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_standard_error_intercepts"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_standard_error_slope_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.standard_error_slope_1": {
+			          "Target": {
+			            "Entity": "regression_volume.standard_error_slope_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.standard_error_slope_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_standard_error_slope_1"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_intercept": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.intercept": {
+			          "Target": {
+			            "Entity": "regression_volume.intercept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.intercept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_intercepts"
+			        }
+			      ]
+			    },
+			    "regression_volume_has_slope_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression Volume"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_volume": {
+			          "Target": {
+			            "Entity": "regression_volume"
+			          }
+			        },
+			        "regression_volume.slope_1": {
+			          "Target": {
+			            "Entity": "regression_volume.slope_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_volume"
+			            },
+			            "Object": {
+			              "Role": "regression_volume.slope_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_volumes_have_slope_1"
+			        }
+			      ]
+			    },
+			    "regression_value_has_constant_of_regression_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.constant_of_regression_value": {
+			          "Target": {
+			            "Entity": "regression_value.constant_of_regression_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.constant_of_regression_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_constant_of_regression_value"
+			        }
+			      ]
+			    },
+			    "regression_value_has_slope_value_regression": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.slope_value_regression": {
+			          "Target": {
+			            "Entity": "regression_value.slope_value_regression"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.slope_value_regression"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_slope_value_regressions"
+			        }
+			      ]
+			    },
+			    "regression_value_has_residual_sum_of_squares": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.residual_sum_of_squares": {
+			          "Target": {
+			            "Entity": "regression_value.residual_sum_of_squares"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.residual_sum_of_squares"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_residual_sum_of_squares"
+			        }
+			      ]
+			    },
+			    "regression_value_has_regression_sum_of_squares": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.regression_sum_of_squares": {
+			          "Target": {
+			            "Entity": "regression_value.regression_sum_of_squares"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.regression_sum_of_squares"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_regression_sum_of_squares"
+			        }
+			      ]
+			    },
+			    "regression_value_has_degree_of_freedom": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.degree_of_freedom": {
+			          "Target": {
+			            "Entity": "regression_value.degree_of_freedom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.degree_of_freedom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_degree_of_freedom"
+			        }
+			      ]
+			    },
+			    "regression_value_has_F_statistic": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.F_statistic": {
+			          "Target": {
+			            "Entity": "regression_value.F_statistic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.F_statistic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_F_statistics"
+			        }
+			      ]
+			    },
+			    "regression_value_has_standard_error": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.standard_error": {
+			          "Target": {
+			            "Entity": "regression_value.standard_error"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.standard_error"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_standard_errors"
+			        }
+			      ]
+			    },
+			    "regression_value_has_coefficient_of_determination": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.coefficient_of_determination": {
+			          "Target": {
+			            "Entity": "regression_value.coefficient_of_determination"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.coefficient_of_determination"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_coefficient_of_determination"
+			        }
+			      ]
+			    },
+			    "regression_value_has_standard_error_intercept": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.standard_error_intercept": {
+			          "Target": {
+			            "Entity": "regression_value.standard_error_intercept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.standard_error_intercept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_standard_error_intercepts"
+			        }
+			      ]
+			    },
+			    "regression_value_has_standard_error_slope_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.standard_error_slope_1": {
+			          "Target": {
+			            "Entity": "regression_value.standard_error_slope_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.standard_error_slope_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_standard_error_slope_1"
+			        }
+			      ]
+			    },
+			    "regression_value_has_intercept": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.intercept": {
+			          "Target": {
+			            "Entity": "regression_value.intercept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.intercept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_intercepts"
+			        }
+			      ]
+			    },
+			    "regression_value_has_slope_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Regression value"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regression_value": {
+			          "Target": {
+			            "Entity": "regression_value"
+			          }
+			        },
+			        "regression_value.slope_1": {
+			          "Target": {
+			            "Entity": "regression_value.slope_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regression_value"
+			            },
+			            "Object": {
+			              "Role": "regression_value.slope_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regression_values_have_slope_1"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_average_volume_in_cr_": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.average_volume_in_cr_": {
+			          "Target": {
+			            "Entity": "UPI_data.average_volume_in_cr_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.average_volume_in_cr_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_average_volume_in_cr_"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_average_value_in_cr_": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.average_value_in_cr_": {
+			          "Target": {
+			            "Entity": "UPI_data.average_value_in_cr_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.average_value_in_cr_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_average_value_in_cr_"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_regression_volume": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.regression_volume": {
+			          "Target": {
+			            "Entity": "UPI_data.regression_volume"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.regression_volume"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_regression_volume"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_number_of_banks_added_each_month": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.number_of_banks_added_each_month": {
+			          "Target": {
+			            "Entity": "UPI_data.number_of_banks_added_each_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.number_of_banks_added_each_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_number_of_banks_added_each_month"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_reggresion_value": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.reggresion_value": {
+			          "Target": {
+			            "Entity": "UPI_data.reggresion_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.reggresion_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_reggresion_value"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_volume_in_cr__MoM": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.volume_in_cr__MoM": {
+			          "Target": {
+			            "Entity": "UPI_data.volume_in_cr__MoM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.volume_in_cr__MoM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_volume_in_cr__MoM"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_value_in_cr__MoM": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.value_in_cr__MoM": {
+			          "Target": {
+			            "Entity": "UPI_data.value_in_cr__MoM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.value_in_cr__MoM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_value_in_cr__MoM"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_value_per_transaction": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.value_per_transaction": {
+			          "Target": {
+			            "Entity": "UPI_data.value_per_transaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.value_per_transaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_value_per_transaction"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_correlation_b_w_no__of_banks_live_on_UPI_and_value_in_cr__for_month": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.correlation_b_w_no__of_banks_live_on_UPI_and_value_in_cr__for_month": {
+			          "Target": {
+			            "Entity": "UPI_data.correlation_b_w_no__of_banks_live_on_UPI_and_value_in_cr__for_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.correlation_b_w_no__of_banks_live_on_UPI_and_value_in_cr__for_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_correlation_b_w_no__of_banks_live_on_UPI_and_value_in_cr__for_month"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_value_in_cr_": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.value_in_cr_": {
+			          "Target": {
+			            "Entity": "UPI_data.value_in_cr_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.value_in_cr_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_value_in_cr_"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_volume_in_cr_": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.volume_in_cr_": {
+			          "Target": {
+			            "Entity": "UPI_data.volume_in_cr_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.volume_in_cr_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_volume_in_cr_"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_no__of_banks_live_on_UPI": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.no__of_banks_live_on_UPI": {
+			          "Target": {
+			            "Entity": "UPI_data.no__of_banks_live_on_UPI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.no__of_banks_live_on_UPI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_no__of_banks_live_on_UPI"
+			        }
+			      ]
+			    },
+			    "UPI_data_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "UPI Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "UPI_data": {
+			          "Target": {
+			            "Entity": "UPI_data"
+			          }
+			        },
+			        "UPI_data.month": {
+			          "Target": {
+			            "Entity": "UPI_data.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "UPI_data"
+			            },
+			            "Object": {
+			              "Role": "UPI_data.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "UPI_data_have_months"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

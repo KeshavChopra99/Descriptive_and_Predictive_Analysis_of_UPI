@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.0.0/schema.json",
+  "name": "ReportSection53f99926950d7029165e",
+  "displayName": "Home",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#ECF0EF'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "d3f77c567761eaa0b20d",
+      "target": "78028ea9a16a18eb9f0c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ba5890abe09d13077c43",
+      "target": "78028ea9a16a18eb9f0c",
+      "type": "NoFilter"
+    }
+  ]
+}

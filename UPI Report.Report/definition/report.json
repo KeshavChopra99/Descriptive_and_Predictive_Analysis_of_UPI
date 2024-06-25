@@ -1,0 +1,114 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/1.0.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY23SU11",
+      "reportVersionAtImport": "5.50",
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Velocity17737767787104164.json",
+      "reportVersionAtImport": "5.50",
+      "type": "RegisteredResources"
+    }
+  },
+  "layoutOptimization": "None",
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "visible": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY23SU11",
+          "path": "BaseThemes/CY23SU11.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "tinywow_UPI-Logo-vector_4674029918787569170568.png",
+          "path": "tinywow_UPI-Logo-vector_4674029918787569170568.png",
+          "type": "Image"
+        },
+        {
+          "name": "Velocity17737767787104164.json",
+          "path": "Velocity17737767787104164.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "social-media8678399289880474.png",
+          "path": "social-media8678399289880474.png",
+          "type": "Image"
+        },
+        {
+          "name": "linkedin13092662961630097.png",
+          "path": "linkedin13092662961630097.png",
+          "type": "Image"
+        },
+        {
+          "name": "email34751920899174094.png",
+          "path": "email34751920899174094.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  },
+  "slowDataSourceSettings": {
+    "isCrossHighlightingDisabled": false,
+    "isSlicerSelectionsButtonEnabled": false,
+    "isFilterSelectionsButtonEnabled": false,
+    "isFieldWellButtonEnabled": false,
+    "isApplyAllButtonEnabled": false
+  },
+  "publicCustomVisuals": [
+    "PBI_CV_815282F9_27F5_4950_9430_E910E0A8DB6A",
+    "kpifreeapi51D0292A0438427096AC459B59FEF2DE",
+    "payPalKPIDonutChart55A431AB15A540ED924ACD72ED8D259F"
+  ]
+}

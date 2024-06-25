@@ -1,0 +1,121 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "dc5efc605e9a8d71152a",
+  "position": {
+    "x": 197.65833039802749,
+    "y": 161.58929200422685,
+    "z": 0,
+    "width": 1015.7041211694259,
+    "height": 440.04226840436775,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Unified Payments Interface (UPI) is a system that powers multiple bank accounts into a single mobile application (of any participating bank), merging several banking features, seamless fund routing & merchant payments into one hood. It also caters to the “Peer to Peer” collect request which can be scheduled and paid as per requirement and convenience.",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#1d554e"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Unified Payments Interface (UPI) has been a game changer in the Indian digital payment landscape. Launched in 2016 by the National Payments Corporation of India  (NPCI), UPI has witnessed an exponential growth in its usage over the years. It has revolutionized the way people make transactions, making it faster, easier and more secure.",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "As a MBA student and a keen observer of the Indian digital payments market, I was intrigued by the rapid adoption and success of UPI. This led me to conduct a descriptive analysis of UPI, to understand the rate of growth and the impact it has had on the Indian economy.",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The first and foremost reason for conducting a descriptive analysis of UPI was to understand its growth trajectory. The data collected from the source revealed a staggering growth rate of UPI transactions, from just 0.45 crore in January 2017 to 1202 crore in December 2023. This exponential growth clearly indicates the widespread adoption of UPI by the Indian population.",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#ECF0EF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

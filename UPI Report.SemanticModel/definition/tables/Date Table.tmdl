@@ -1,0 +1,67 @@
+table 'Date Table'
+	lineageTag: d46e564a-3f2f-4db6-81e5-b13720e31844
+
+	column Month
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 70bd3442-6d65-4e82-9cc1-c7b2f5b66be5
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Month Name'
+		dataType: string
+		lineageTag: 3cf29b8b-b899-4b25-8fbd-6a1d85cf3830
+		summarizeBy: none
+		sourceColumn: Month Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Short'
+		dataType: string
+		lineageTag: 866d52b9-058d-4508-bb30-272c8eb234e8
+		summarizeBy: none
+		sourceColumn: Month Short
+		sortByColumn: 'Month No.'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month No.'
+		dataType: int64
+		formatString: 0
+		lineageTag: 41b4997e-0a39-4139-b73d-6d822429c04d
+		summarizeBy: sum
+		sourceColumn: Month No.
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b23fe9c-2e13-4827-b0ee-1ad0fde436b7
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	partition 'Date Table' = m
+		mode: import
+		source =
+				let
+				    Source = #"UPI Data",
+				    #"Removed Columns" = Table.RemoveColumns(Source,{"No. of Banks live on UPI", "Volume (in Cr.)", "Value (in Cr.)"}),
+				    #"Inserted Month Name" = Table.AddColumn(#"Removed Columns", "Month Name", each Date.MonthName([Month]), type text),
+				    #"Inserted First Characters" = Table.AddColumn(#"Inserted Month Name", "First Characters", each Text.Start([Month Name], 3), type text),
+				    #"Renamed Columns" = Table.RenameColumns(#"Inserted First Characters",{{"First Characters", "Month Short"}}),
+				    #"Inserted Month" = Table.AddColumn(#"Renamed Columns", "Month No.", each Date.Month([Month]), Int64.Type),
+				    #"Inserted Year" = Table.AddColumn(#"Inserted Month", "Year", each Date.Year([Month]), Int64.Type)
+				in
+				    #"Inserted Year"
+
+	annotation PBI_ResultType = Table
+
