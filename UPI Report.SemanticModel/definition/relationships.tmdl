@@ -1,0 +1,11 @@
+relationship 6e83e2bb-2995-4fdb-91cf-d6d5d065ed6a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'UPI Data'.Month
+	toColumn: LocalDateTable_240ff551-4df9-4ad7-9f8d-15bf1235e1df.Date
+
+relationship 2fe3263d-08e5-4744-b79a-3076e1e2c96d
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Date Table'.Month
+	toColumn: 'UPI Data'.Month
+

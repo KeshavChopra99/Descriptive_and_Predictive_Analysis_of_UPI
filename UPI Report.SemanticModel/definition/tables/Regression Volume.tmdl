@@ -1,0 +1,150 @@
+table 'Regression Volume'
+	lineageTag: cefbadd0-b6d1-45a3-a920-3a23fb784b5e
+
+	column Slope1
+		dataType: double
+		lineageTag: 598595a9-252c-4cf6-98a3-51765de94f5b
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [Slope1]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Intercept
+		dataType: double
+		lineageTag: 9dcb1fc6-7358-4905-9922-6faf86ab2339
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [Intercept]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column StandardErrorSlope1
+		dataType: double
+		lineageTag: 25d006dd-acf0-442e-93f8-8252186e6381
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [StandardErrorSlope1]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column StandardErrorIntercept
+		dataType: double
+		lineageTag: fc43c7af-680a-4538-a514-d3da1f6594d4
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [StandardErrorIntercept]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CoefficientOfDetermination
+		dataType: double
+		lineageTag: 61366640-98f8-4ff9-b642-de0b736a8ace
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [CoefficientOfDetermination]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column StandardError
+		dataType: double
+		lineageTag: 7dbc23a1-0777-4ceb-b5f1-136091bbc799
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [StandardError]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FStatistic
+		dataType: double
+		lineageTag: fdc121cf-4adb-4292-8e59-00fff8d3ddc7
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [FStatistic]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DegreesOfFreedom
+		dataType: double
+		lineageTag: 4612e70c-3b21-4ad4-b254-26e53cf934fa
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [DegreesOfFreedom]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RegressionSumOfSquares
+		dataType: double
+		lineageTag: d1b2d28f-29bc-49de-8e87-91da81423cba
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [RegressionSumOfSquares]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ResidualSumOfSquares
+		dataType: double
+		lineageTag: 9c4c811e-3400-4840-bf66-3eb8a794ec7e
+		summarizeBy: sum
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [ResidualSumOfSquares]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Slope Volume Regression' = ROUND('Regression Volume'[Slope1],2)  & "±" & ROUND('Regression Volume'[StandardErrorSlope1],2)
+		dataType: string
+		lineageTag: c07d3338-fd78-441e-a476-b93f94a1feea
+		summarizeBy: none
+		isDataTypeInferred
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Constant of Regression Volume' = ROUND('Regression Volume'[Intercept],2)  & "±" & ROUND('Regression Volume'[StandardErrorIntercept],2)
+		dataType: string
+		lineageTag: 804f97c8-19a4-4468-9357-aef7b34e6b60
+		summarizeBy: none
+		isDataTypeInferred
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Regression Volume' = calculated
+		mode: import
+		source =
+				LINESTX(
+				        ALLSELECTED('UPI Data'),
+				        'UPI Data'[Volume (in Cr.)],
+				        'UPI Data'[No. of Banks live on UPI]
+				        )
+
+	annotation PBI_Id = dc8fb5983f334df8954a00e7d2648a2f
+
